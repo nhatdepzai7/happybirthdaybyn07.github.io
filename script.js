@@ -292,11 +292,7 @@ function reveal() {
   {
     w = 255;h = 155;
   }https://www.youtube.com/watch?v=h53q6iIORhw
-
-  var ifrm = document.createElement("iframe");
-  ifrm.setAttribute("src", "https://youtu.be/h53q6iIORhw");
-  //ifrm.style.width = `${w}px`;
-  //ifrm.style.height = `${h}px`;
-  ifrm.style.border = 'none';
+<iframe width="560" height="315" src="https://www.youtube.com/embed/h53q6iIORhw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  
   document.querySelector('#video').appendChild(ifrm);
 }
